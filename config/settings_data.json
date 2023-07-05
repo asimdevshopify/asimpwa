@@ -1,13 +1,13 @@
 {
   "current": {
-    "enable_application_mode": false,
+    "enable_application_mode": true,
     "application_name": "AsimPWA",
-    "application_icon": "shopify:\/\/shop_images\/FaQBnVeh4Q.jpg",
+    "application_icon": "shopify:\/\/shop_images\/rails_logo.gif",
     "application_maskable_icon": "shopify:\/\/shop_images\/artboard_2_copy_2.png",
-    "application_splash_screen": "shopify:\/\/shop_images\/rails_logo.gif",
+    "application_splash_screen": "shopify:\/\/shop_images\/FaQBnVeh4Q.jpg",
     "application_show_button": true,
     "application_shortcut_link": "shopify:\/\/collections\/frontpage",
-    "application_shortcut_icon": "shopify:\/\/shop_images\/FaQBnVeh4Q.jpg",
+    "application_shortcut_icon": "shopify:\/\/shop_images\/rails_logo.gif",
     "logo": "shopify:\/\/shop_images\/Dawn_logo_90x_2x_9c794845-71aa-42f1-ab92-1ee94b86f0e5.webp",
     "logo_width": 90,
     "favicon": "shopify:\/\/shop_images\/favicon.png",
