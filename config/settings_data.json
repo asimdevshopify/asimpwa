@@ -1,5 +1,6 @@
 {
   "current": {
+    "enable_application_mode": false,
     "application_name": "AsimPWA",
     "application_icon": "shopify:\/\/shop_images\/FaQBnVeh4Q.jpg",
     "application_maskable_icon": "shopify:\/\/shop_images\/artboard_2_copy_2.png",
