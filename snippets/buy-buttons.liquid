@@ -98,7 +98,9 @@
             </div>
           </button>
           {%- if show_dynamic_checkout -%}
+            {% unless product.tags contains "wk_booking" %}
             {{ form | payment_button }}
+              {% endunless %}
           {%- endif -%}
         </div>
             
