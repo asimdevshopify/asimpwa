@@ -101,6 +101,11 @@
             {{ form | payment_button }}
           {%- endif -%}
         </div>
+            
+        {% if product.tags contains "wk_booking" %}
+        {% render 'bc-widget' %}
+        {% endif %}
+       
       {%- endform -%}
     </product-form>
   {%- else -%}
