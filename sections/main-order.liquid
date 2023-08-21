@@ -65,6 +65,9 @@
                   {%- else -%}
                     <p>{{ line_item.title }}</p>
                   {%- endif -%}
+            {% if line_item.properties.wk_booking or line_item.properties.slot_date or line_item.properties._Booking_slot_date %}
+        <p><u><a href="https://{{ shop.domain }}/pages/booking-information/{{ line_item.id }}?handle={{ line_item.variant_id }}">View Booking Details</a></u></p>
+        {% endif %}
                   {%- assign property_size = line_item.properties | size -%}
                   {%- unless line_item.selling_plan_allocation == null and property_size == 0 -%}
                     <div class="properties">
