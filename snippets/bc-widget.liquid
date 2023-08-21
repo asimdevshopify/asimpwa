@@ -14,7 +14,7 @@
 <script>
   $(function(){
     var p_url = window.location.href;
-    $(document).on('change','.single-option-selector', function(){
+    $(document).on('change','.single-option-selector, .product-form__input', function(){
       $("[name='add']").attr('disabled',true);
       var c_url = window.location.href;
       $('.bc-front-widget').removeClass('hide');
