@@ -128,7 +128,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.</p>",
+            "text": "<p>Unexpected shapes with smart details, functionality, a new luxury feel with a contemporary price point.<\/p>",
             "text_style": "body"
           }
         }
@@ -138,7 +138,6 @@
         "image-with-text-1"
       ],
       "settings": {
-        "image": "shopify://shop_images/imgwithtext_1070x_1070x_c8e95f55-3876-441b-a37d-e3a92b8f4884.webp",
         "height": "small",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -159,7 +158,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>We offer free worldwide express shipping on all orders. You'll receive your order an estimated 1–4 days after shipment.</p>",
+            "text": "<p>We offer free worldwide express shipping on all orders. You'll receive your order an estimated 1–4 days after shipment.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -168,7 +167,7 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address.</p>",
+            "text": "<p>Exchanges are free. Try from the comfort of your home. We will collect from your home, work or an alternative address.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -211,12 +210,33 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "16932866779fb677f9": {
+      "type": "apps",
+      "blocks": {
+        "a4ea8780-5e5d-42bc-9cb5-b2e04ea8750f": {
+          "type": "shopify:\/\/apps\/coattend-booking-app\/blocks\/calendar\/c8b63973-4db6-4198-935f-a082f1e1d0b2",
+          "settings": {
+            "top_padding": "20px",
+            "bottom_padding": "0px",
+            "left_padding": "0px",
+            "right_padding": "0px"
+          }
+        }
+      },
+      "block_order": [
+        "a4ea8780-5e5d-42bc-9cb5-b2e04ea8750f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "16932866779fb677f9"
   ]
 }
